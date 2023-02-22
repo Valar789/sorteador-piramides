@@ -1,16 +1,13 @@
-
-import Layout from "./components/Layout";
-
  
+import Layout from "./components/Layout";
 
 function App() {
   return (
-<>
-<Layout>
-    <div className="-mt-28">Contenido de main</div>
-  </Layout>
-
-</>
+    <>
+      <Layout>
+        <div className="">CONTENIDO</div>
+      </Layout>
+    </>
   );
 }
 
