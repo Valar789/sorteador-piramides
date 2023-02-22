@@ -5,3 +5,31 @@
 body{
     background-color: #6C82BB;
 }
+
+.file-upload {
+    position: relative;
+    overflow: hidden;
+    border-radius: 3px !important;
+    background: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    border:none !important;
+    box-shadow: none !important;
+    text-shadow:none;
+    padding: 5px 10px !important;
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+  
+  }
+  .file-upload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }

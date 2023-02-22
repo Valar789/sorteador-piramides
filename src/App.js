@@ -1,11 +1,12 @@
  
+import ExcelUploader from "./components/Home/ExcelUploader";
 import Layout from "./components/Layout";
 
 function App() {
   return (
     <>
       <Layout>
-        <div className="">CONTENIDO</div>
+        <div className=""><ExcelUploader/></div>
       </Layout>
     </>
   );
