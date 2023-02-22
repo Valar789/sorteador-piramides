@@ -1,11 +1,16 @@
 
+import Layout from "./components/Layout";
+
  
 
 function App() {
   return (
-    <div className="grid place-content-center h-screen">
+<>
+<Layout>
+    <div className="-mt-28">Contenido de main</div>
+  </Layout>
 
-    </div>
+</>
   );
 }
 
