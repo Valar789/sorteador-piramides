@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    background-color: #6C82BB;
+body {
+    background-color: #839DE0;
+}
+#buttonAdd{
+    background-color: #2678F3;
 }

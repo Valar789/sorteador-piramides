@@ -1,13 +1,13 @@
- 
-import Layout from "./components/Layout";
+import ExcelUploader from "./components/home/ExcelUploader";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <>
-      <Layout>
-        <div className="">CONTENIDO</div>
-      </Layout>
-    </>
+    <Layout>
+      <div className="grid place-content-center">
+        <ExcelUploader />
+      </div>
+    </Layout>
   );
 }
 

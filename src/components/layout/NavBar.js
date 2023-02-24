@@ -7,6 +7,7 @@ export default function NavBar() {
         <li>Cargar nuevo documento</li>
         <li>Plantillas pirámides</li>
       </ul>
+      <button></button>
     </nav>
   );
 }
